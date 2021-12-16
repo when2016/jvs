@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.jvs.web.config.ContextHolderFilter,\
+com.jvs.web.config.JacksonConfiguration,\
+com.jvs.web.config.JvsWebMvcConfigurer,\
+com.jvs.web.config.UnifyExceptionHandler

@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.jvs.log.aspect.SysLogAspect,\
+com.jvs.log.config.LogDbConfig

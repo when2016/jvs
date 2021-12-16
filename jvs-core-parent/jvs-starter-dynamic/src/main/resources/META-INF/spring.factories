@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.jvs.dynamic.config.DynamicDataConfig,\
+com.jvs.dynamic.init.DynamicDataSourceInit, \
+com.jvs.dynamic.filter.DynamicDataSourceFilter
