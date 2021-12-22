@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.bctools</groupId>
+        <groupId>cn.bctools</groupId>
         <artifactId>jvs-apply-document</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.bctools</groupId>
+    <groupId>cn.bctools</groupId>
     <artifactId>document-mgr</artifactId>
     <packaging>jar</packaging>
 
@@ -21,13 +21,13 @@
         </dependency>
 
         <dependency>
-            <groupId>com.bctools</groupId>
+            <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-web</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
-            <groupId>com.bctools</groupId>
+            <groupId>cn.bctools</groupId>
             <artifactId>document-common</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>

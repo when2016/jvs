@@ -1,4 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.bctools.redis.config.RedisConfiguration,\
-com.bctools.redis.utils.RedisLockUtil
+  cn.bctools.redis.config.RedisConfiguration,\
+cn.bctools.redis.utils.RedisLockUtil
 

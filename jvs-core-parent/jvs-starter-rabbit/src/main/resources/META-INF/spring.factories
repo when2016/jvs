@@ -1,3 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.bctools.rabbit.config.MyRabbitConfig
+cn.bctools.rabbit.config.MyRabbitConfig
 

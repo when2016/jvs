@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.bctools</groupId>
+        <groupId>cn.bctools</groupId>
         <artifactId>jvs-core-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
 
-    <groupId>com.bctools</groupId>
+    <groupId>cn.bctools</groupId>
     <artifactId>jvs-starter-sentinel</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
@@ -41,7 +41,7 @@
             <artifactId>jakarta.servlet-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.bctools</groupId>
+            <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-common</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>

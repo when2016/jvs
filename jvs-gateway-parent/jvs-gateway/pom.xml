@@ -6,12 +6,12 @@
 
 
     <parent>
-        <groupId>com.bctools</groupId>
+        <groupId>cn.bctools</groupId>
         <artifactId>jvs-gateway-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.bctools</groupId>
+    <groupId>cn.bctools</groupId>
     <artifactId>jvs-gateway</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
@@ -20,7 +20,7 @@
 
 
         <dependency>
-            <groupId>com.bctools</groupId>
+            <groupId>cn.bctools</groupId>
             <artifactId>jvs-gateway-common</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
@@ -94,13 +94,13 @@
         </dependency>
 
         <dependency>
-            <groupId>com.bctools</groupId>
+            <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-oauth2</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
-            <groupId>com.bctools</groupId>
+            <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-redis</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>

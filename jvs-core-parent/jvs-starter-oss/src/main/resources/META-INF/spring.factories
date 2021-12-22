@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.bctools.oss.config.OssAutoConfiguration
+cn.bctools.oss.config.OssAutoConfiguration

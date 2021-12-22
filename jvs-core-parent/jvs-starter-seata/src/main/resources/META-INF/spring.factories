@@ -1,4 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.bctools.core.seata.config.SeataConfiguration,\
-com.bctools.core.seata.SeataInterceptorConfig,\
-com.bctools.core.seata.SeataXidFilter
+cn.bctools.core.seata.config.SeataConfiguration,\
+cn.bctools.core.seata.SeataInterceptorConfig,\
+cn.bctools.core.seata.SeataXidFilter

@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.bctools.gray.config.GrayConfig
+cn.bctools.gray.config.GrayConfig

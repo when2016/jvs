@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.bctools.sentinel.config.SentinelConfiguration
+cn.bctools.sentinel.config.SentinelConfiguration
