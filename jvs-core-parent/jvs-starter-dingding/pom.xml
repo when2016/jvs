@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <dependencies>
         <dependency>
-            <groupId>com.jvs</groupId>
+            <groupId>com.bctools</groupId>
             <artifactId>jvs-starter-common</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <scope>compile</scope>
@@ -12,12 +12,12 @@
     </dependencies>
 
     <parent>
-        <groupId>com.jvs</groupId>
+        <groupId>com.bctools</groupId>
         <artifactId>jvs-core-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.jvs</groupId>
+    <groupId>com.bctools</groupId>
     <artifactId>jvs-starter-dingding</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>

@@ -1,3 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.jvs.email.config.EmailConfig,\
-  com.jvs.email.EmailUtils
+com.bctools.email.config.EmailConfig,\
+  com.bctools.email.EmailUtils

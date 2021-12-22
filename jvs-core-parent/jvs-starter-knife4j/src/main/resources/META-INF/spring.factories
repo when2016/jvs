@@ -1,3 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.jvs.feign.config.SwaggerProperties,\
-com.jvs.feign.config.SwaggerAutoConfiguration
+com.bctools.feign.config.SwaggerProperties,\
+com.bctools.feign.config.SwaggerAutoConfiguration

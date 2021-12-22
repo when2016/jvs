@@ -4,19 +4,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.jvs</groupId>
+        <groupId>com.bctools</groupId>
         <artifactId>jvs-core-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.jvs</groupId>
+    <groupId>com.bctools</groupId>
     <artifactId>jvs-starter-job</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <dependencies>
 
         <dependency>
-            <groupId>com.jvs</groupId>
+            <groupId>com.bctools</groupId>
             <artifactId>jvs-starter-feign</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>

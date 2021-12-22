@@ -4,18 +4,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.jvs</groupId>
+        <groupId>com.bctools</groupId>
         <artifactId>${moduleName}</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.jvs</groupId>
+    <groupId>com.bctools</groupId>
     <artifactId>${moduleName}-common</artifactId>
 
     <dependencies>
 
         <dependency>
-            <groupId>com.jvs</groupId>
+            <groupId>com.bctools</groupId>
             <artifactId>jvs-starter-database</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>

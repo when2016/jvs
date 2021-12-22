@@ -1,5 +1,5 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration= \
-com.jvs.database.config.DatabaseConfig, \
-com.jvs.database.config.MybatisPlusConfig, \
-com.jvs.database.property.SqlProperties, \
-com.jvs.database.config.AutoFillConfig
+com.bctools.database.config.DatabaseConfig, \
+com.bctools.database.config.MybatisPlusConfig, \
+com.bctools.database.property.SqlProperties, \
+com.bctools.database.config.AutoFillConfig

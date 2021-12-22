@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.jvs</groupId>
+        <groupId>com.bctools</groupId>
         <artifactId>jvs-core-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.jvs</groupId>
+    <groupId>com.bctools</groupId>
     <artifactId>jvs-starter-email</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
@@ -25,7 +25,7 @@
             <version>1.4.7</version>
         </dependency>
         <dependency>
-            <groupId>com.jvs</groupId>
+            <groupId>com.bctools</groupId>
             <artifactId>jvs-starter-common</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <scope>compile</scope>
