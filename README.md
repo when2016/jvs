@@ -20,7 +20,10 @@ JVS是“软开企服”推出的面向软件开发团队可以快速实现应�
 
 低代码、微服务、支持SaaS、私有化部署、DevOps、
 
-
+## **项目构成**
+企业文档业务前台前端地址：https://gitee.com/software-minister/jvs-knowledge-ui
+企业文档管理后台前端地址：https://gitee.com/software-minister/jvs-ui
+企业文档后端地址：https://gitee.com/software-minister/jvs
 
 ## **体验地址**
 
