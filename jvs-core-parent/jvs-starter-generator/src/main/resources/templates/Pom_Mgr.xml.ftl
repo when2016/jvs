@@ -6,7 +6,7 @@
     <parent>
         <groupId>cn.bctools</groupId>
         <artifactId>jvs-apply-flowable</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>${moduleName}-mgr</artifactId>
@@ -16,17 +16,17 @@
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>${moduleName}-common</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-web</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-oauth2</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 

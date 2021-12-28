@@ -6,12 +6,12 @@
     <parent>
         <groupId>cn.bctools</groupId>
         <artifactId>jvs</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <groupId>cn.bctools</groupId>
     <artifactId>${moduleName}</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <modules>

@@ -6,12 +6,12 @@
     <parent>
         <groupId>cn.bctools</groupId>
         <artifactId>jvs-demo-examples</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <groupId>cn.bctools</groupId>
     <artifactId>base-examples-mgr</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <dependencies>
 
@@ -19,38 +19,38 @@
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-oauth2</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-oss</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-redis</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-common</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-job</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
 
 
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-web</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
 
     </dependencies>

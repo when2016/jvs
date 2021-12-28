@@ -6,7 +6,7 @@
     <parent>
         <groupId>cn.bctools</groupId>
         <artifactId>${moduleName}</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <groupId>cn.bctools</groupId>
@@ -17,7 +17,7 @@
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-database</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
 
     </dependencies>

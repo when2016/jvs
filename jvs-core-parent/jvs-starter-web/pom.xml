@@ -8,13 +8,13 @@
     <parent>
         <groupId>cn.bctools</groupId>
         <artifactId>jvs-core-parent</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
 
     <groupId>cn.bctools</groupId>
     <artifactId>jvs-starter-web</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <dependencies>
 
@@ -33,7 +33,7 @@
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-gray</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
 
         <!--web 模块-->
@@ -58,34 +58,27 @@
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-knife4j</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-feign</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-sentinel</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-log</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
 
     </dependencies>
-
-
-    <build>
-        <plugins>
-
-        </plugins>
-    </build>
 
 </project>

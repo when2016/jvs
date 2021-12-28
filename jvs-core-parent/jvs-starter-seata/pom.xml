@@ -6,12 +6,12 @@
     <parent>
         <groupId>cn.bctools</groupId>
         <artifactId>jvs-core-parent</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <groupId>cn.bctools</groupId>
     <artifactId>jvs-starter-seata</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <dependencies>
         <dependency>
@@ -42,11 +42,5 @@
             <artifactId>jakarta.servlet-api</artifactId>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-
-        </plugins>
-    </build>
 
 </project>

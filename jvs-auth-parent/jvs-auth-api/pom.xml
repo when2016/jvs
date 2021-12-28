@@ -6,19 +6,19 @@
     <parent>
         <groupId>cn.bctools</groupId>
         <artifactId>jvs-auth-parent</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <groupId>cn.bctools</groupId>
     <artifactId>jvs-auth-api</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <dependencies>
 
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-feign</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
 
     </dependencies>

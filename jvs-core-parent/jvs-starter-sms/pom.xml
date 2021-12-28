@@ -7,12 +7,12 @@
     <parent>
         <groupId>cn.bctools</groupId>
         <artifactId>jvs-core-parent</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <groupId>cn.bctools</groupId>
     <artifactId>jvs-starter-sms</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <dependencies>
         <!--阿里云Java SDK核心库-->
@@ -31,15 +31,8 @@
         <dependency>
             <groupId>cn.bctools</groupId>
             <artifactId>jvs-starter-common</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
-
-
-    <build>
-        <plugins>
-
-        </plugins>
-    </build>
 
 </project>
