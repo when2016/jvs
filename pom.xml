@@ -23,10 +23,6 @@
     <modules>
         <module>jvs-auth-parent</module>
         <module>jvs-core-parent</module>
-        <!--        <module>jvs-gateway-parent</module>-->
-        <!--插件-->
-        <!--        <module>jvs-apply</module>-->
-        <!--        <module>jvs-demo-examples</module>-->
     </modules>
 
     <licenses>
