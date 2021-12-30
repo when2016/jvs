@@ -35,6 +35,11 @@ JVS是“软开企服”推出的面向软件开发团队可以快速实现应�
 
 登陆可以通过微信扫码登陆，对于配置数据，请各位技术同学手下留情。
 
+### 部署文档
+
+https://gitee.com/software-minister/jvs-docker-compose/blob/master/readme.md
+
+
 
 **物理拓扑：
 ![输入图片说明](image11.png)
