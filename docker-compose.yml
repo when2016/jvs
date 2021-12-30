@@ -43,6 +43,7 @@ services:
     environment:
       - MINIO_ROOT_USER=miniominio
       - MINIO_ROOT_PASSWORD=miniominio
+      - TZ=Asia/Shanghai
     volumes:
       - ./data/minio/:/data
     ports:
@@ -67,6 +68,7 @@ services:
     restart: always
     environment:
       - discovery.type=single-node
+      - TZ=Asia/Shanghai
     volumes:
       - ./data/elasticsearch/:/usr/share/elasticsearch/data
     ports:
@@ -80,7 +82,7 @@ services:
       context: ./jvs-gateway-parent/jvs-gateway
     restart: always
     container_name: gateway
-    image: gateway
+    image: 0glg0/gateway:${JVSVERSION}
     volumes:
       - ./data/nacos/:/root/nacos/config
     ports:
@@ -91,7 +93,7 @@ services:
     build:
       context: ./jvs-auth-parent/jvs-auth-mgr
     restart: always
-    image: jvs-auth-mgr
+    image: 0glg0/jvs-auth-mgr:${JVSVERSION}
     container_name: jvs-auth-mgr
     volumes:
       - ./data/nacos/:/root/nacos/config
@@ -102,23 +104,13 @@ services:
     build:
       context: ./jvs-auth-parent/jvs-auth
     restart: always
-    image: jvs-auth
+    image: 0glg0/jvs-auth:${JVSVERSION}
     container_name: jvs-auth
     volumes:
       - ./data/nacos/:/root/nacos/config
     networks:
       - jvs
 
-  jvs-apply-document:
-    build:
-      context: ./jvs-apply/jvs-apply-document/document-mgr
-    restart: always
-    volumes:
-      - ./data/nacos/:/root/nacos/config
-    image: jvs-apply-document
-    container_name: jvs-apply-document
-    networks:
-      - jvs
 
 #桥接网络
 networks:
