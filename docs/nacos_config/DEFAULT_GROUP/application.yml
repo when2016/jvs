@@ -1,0 +1,105 @@
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-request-size: 20MB
+      max-file-size: 20MB
+  redis:
+    host: jvs-redis
+    port: 6379
+    timeout: 3000
+    database: 0
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://jvs-mysql:3306/jvs?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true
+    username: root
+    password: root
+    hikari:
+      maximum-pool-size: 100
+
+  cloud:
+  #10.0.0.126:8858
+    sentinel.transport.dashboard: sentinel:8084
+    sentinel.log.dir: log/sentinel
+  jackson:
+    default-property-inclusion: non_null
+logging:
+  #使用logstash方式日志传递
+  config: classpath:logback-logstash.xml
+  level:
+    #屏蔽 nacos 心跳日志,因为日志打印太频繁
+    com.alibaba.nacos.client.naming: error
+    cn.bctools: trace
+mybatis-plus:
+  global-config:
+    db-config:
+      #全局逻辑删除字段值
+      logic-delete-field: delFlag
+  # 支持统配符 * 或者 ; 分割
+  typeEnumsPackage: cn.bctools.**.entity.enums
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 使用枚举的name值进行映射
+    default-enum-type-handler: ''
+    # 使用枚举的标号进行映射
+    #default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
+
+
+#SQL性能分析，其它环境建议关闭。只在测试环境进行处理
+sql:
+  #SQL 执行最大时长，毫秒，如果超长会有提示
+  maxTime: 200
+  #是否开启日志记录
+  log: true
+  # SQL分析,将SQL拿来做explain解释器
+  explainIs: true
+  # 动态创建租户数据库,租户id动态路由开关
+  dynamicTenantDatabase: false
+
+
+#阿里短信 请直接在阿里应用市场申请
+sms:
+  signature: healthylife
+  accessKeyId: 
+  accessKeySecret: 
+  template:
+    login: SMS_187752507
+
+#文件存储内容
+oss:
+  #选择阿里oss存储   name : minio   建议使用minio最新版本，oss需要一个桶绑定一个域名， 否则前端使用时会导致图片无法显示
+  name: minio
+  endpoint: http://jvs-minio:9000
+  access-key: miniominio
+  secret-key: miniominio
+  #声明公共桶，获取地址的时候直接为公有地址
+  publicBuckets:
+    - jvs-public
+    - jvs-auth
+    
+#是否做加密数据返回处理
+gateway:
+  #网关返回数据加密,返回数据为R并为成功时才加密，失败不加密,只加密mgr的数据
+  encrypt: true
+  #前端对应的加密，后端权限扫描器数据传输加密,现只加密mgr的请求，其它请求不加密
+  encryptKey: jvs
+
+
+#网关地址 授权认证
+gatewayUrl: http://gateway:10000
+#认证授权地址
+oauthUrl: http://jvs-auth:3000
+security:
+  oauth2:
+    client:
+      # 默认使用项目名做为client
+      client-id: frame
+      client-secret: frame
+      access-token-uri: ${oauthUrl}/oauth/token
+      user-authorization-uri: ${oauthUrl}/oauth/authorize
+      scope: server
+    resource:
+      token-info-uri: ${oauthUrl}/oauth/check_token
+      user-info-uri: ${oauthUrl}/user
+    authorization:
+      check-token-access: ${oauthUrl}/oauth/check_token

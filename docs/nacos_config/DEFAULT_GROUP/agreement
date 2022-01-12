@@ -1,0 +1,2537 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JVS快速开发服务平台使用协议</title>
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<link rel="icon" href="http://jvsoss.bctools.cn/jvs-public/tenantPicture/2021-11-12-643778850076921856-bitbug_favicon.ico" type="image/x-icon" />
+
+
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="file3912.files/filelist.xml">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>xue tingyi</o:Author>
+  <o:LastAuthor>Administrator</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>246</o:TotalTime>
+  <o:Created>2021-11-05T07:16:00Z</o:Created>
+  <o:LastSaved>2021-11-05T07:16:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>5741</o:Words>
+  <o:Characters>6030</o:Characters>
+  <o:Lines>287</o:Lines>
+  <o:Paragraphs>206</o:Paragraphs>
+  <o:CharactersWithSpaces>11565</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="file3912.files/themedata.thmx">
+<link rel=colorSchemeMapping href="file3912.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>90</w:Zoom>
+  <w:DontDisplayPageBoundaries/>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="371">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:等线;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:DengXian;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@等线";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:等线;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:等线;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 字符";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:等线;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:等线;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 字符";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:等线;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:等线;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"正文文本 字符";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:等线;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:等线;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p.MsoDate, li.MsoDate, div.MsoDate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"日期 字符";
+	mso-style-next:正文;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.0pt;
+	margin-bottom:.0001pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:0cm;
+	mso-para-margin-left:25.0gd;
+	mso-para-margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:等线;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:等线;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#609700;
+	mso-text-animation:none;
+	text-decoration:none;
+	text-underline:none;
+	text-decoration:none;
+	text-line-through:none;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#954F72;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-priority:99;
+	margin-top:3.95pt;
+	margin-right:0cm;
+	margin-bottom:3.95pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.emtext, li.emtext, div.emtext
+	{mso-style-name:em_text;
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+p.sign, li.sign, div.sign
+	{mso-style-name:sign;
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.FirstParagraph, li.FirstParagraph, div.FirstParagraph
+	{mso-style-name:"First Paragraph";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:正文文本;
+	mso-style-next:正文文本;
+	margin-top:9.0pt;
+	margin-right:0cm;
+	margin-bottom:9.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:等线;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:等线;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+span.a
+	{mso-style-name:"正文文本 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:正文文本;}
+span.a0
+	{mso-style-name:"页眉 字符";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;}
+span.a1
+	{mso-style-name:"页脚 字符";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;}
+p.Compact, li.Compact, div.Compact
+	{mso-style-name:Compact;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:正文文本;
+	margin-top:1.8pt;
+	margin-right:0cm;
+	margin-bottom:1.8pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:等线;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:等线;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+span.a2
+	{mso-style-name:"日期 字符";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:日期;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;
+	mso-footnote-separator:url("file3912.files/header.htm") fs;
+	mso-footnote-continuation-separator:url("file3912.files/header.htm") fcs;
+	mso-endnote-separator:url("file3912.files/header.htm") es;
+	mso-endnote-continuation-separator:url("file3912.files/header.htm") ecs;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:-364557492;
+	mso-list-template-ids:1709315072;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:24.0pt;
+	text-indent:-24.0pt;}
+@list l0:level2
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:–;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	margin-left:60.0pt;
+	text-indent:-24.0pt;}
+@list l0:level3
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:96.0pt;
+	text-indent:-24.0pt;}
+@list l0:level4
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:–;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	margin-left:132.0pt;
+	text-indent:-24.0pt;}
+@list l0:level5
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-24.0pt;}
+@list l0:level6
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:–;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	margin-left:204.0pt;
+	text-indent:-24.0pt;}
+@list l0:level7
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	margin-left:240.0pt;
+	text-indent:-24.0pt;}
+@list l0:level8
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:–;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	margin-left:276.0pt;
+	text-indent:-24.0pt;}
+@list l0:level9
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	margin-left:312.0pt;
+	text-indent:-24.0pt;}
+@list l1
+	{mso-list-id:2118014081;
+	mso-list-template-ids:0;}
+@list l1:level1
+	{mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.25pt;
+	text-indent:-21.25pt;}
+@list l1:level2
+	{mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:49.6pt;
+	text-indent:-1.0cm;}
+@list l1:level3
+	{mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:70.9pt;
+	text-indent:-1.0cm;}
+@list l1:level4
+	{mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:99.2pt;
+	text-indent:-35.4pt;}
+@list l1:level5
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:127.55pt;
+	text-indent:-42.5pt;}
+@list l1:level6
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:163.0pt;
+	text-indent:-2.0cm;}
+@list l1:level7
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:191.35pt;
+	text-indent:-63.8pt;}
+@list l1:level8
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:219.7pt;
+	text-indent:-70.9pt;}
+@list l1:level9
+	{mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:255.1pt;
+	text-indent:-85.0pt;}
+@list l1:level1 lfo2
+	{mso-level-numbering:continue;
+	mso-level-text:"%1\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level2 lfo2
+	{mso-level-number-format:alpha-lower;
+	mso-level-numbering:continue;
+	mso-level-text:"%2\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level3 lfo2
+	{mso-level-number-format:roman-lower;
+	mso-level-numbering:continue;
+	mso-level-text:"%3\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level4 lfo2
+	{mso-level-numbering:continue;
+	mso-level-text:"\(%4\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level5 lfo2
+	{mso-level-number-format:alpha-lower;
+	mso-level-numbering:continue;
+	mso-level-text:"\(%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level6 lfo2
+	{mso-level-number-format:roman-lower;
+	mso-level-numbering:continue;
+	mso-level-text:"\(%6\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level7 lfo2
+	{mso-level-numbering:continue;
+	mso-level-text:"%7\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level8 lfo2
+	{mso-level-number-format:alpha-lower;
+	mso-level-numbering:continue;
+	mso-level-text:"%8\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level9 lfo2
+	{mso-level-number-format:roman-lower;
+	mso-level-numbering:continue;
+	mso-level-text:"%9\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level1 lfo3
+	{mso-level-number-format:roman-upper;
+	mso-level-numbering:continue;
+	mso-level-text:"%1\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level2 lfo3
+	{mso-level-number-format:alpha-upper;
+	mso-level-numbering:continue;
+	mso-level-text:"%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level3 lfo3
+	{mso-level-numbering:continue;
+	mso-level-text:"%3\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level4 lfo3
+	{mso-level-number-format:alpha-lower;
+	mso-level-numbering:continue;
+	mso-level-text:"%4\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level5 lfo3
+	{mso-level-numbering:continue;
+	mso-level-text:"\(%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level6 lfo3
+	{mso-level-number-format:alpha-lower;
+	mso-level-numbering:continue;
+	mso-level-text:"\(%6\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level7 lfo3
+	{mso-level-number-format:roman-lower;
+	mso-level-numbering:continue;
+	mso-level-text:"\(%7\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level8 lfo3
+	{mso-level-number-format:alpha-lower;
+	mso-level-numbering:continue;
+	mso-level-text:"\(%8\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level9 lfo3
+	{mso-level-number-format:roman-lower;
+	mso-level-numbering:continue;
+	mso-level-text:"\(%9\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level1 lfo4
+	{mso-level-numbering:continue;
+	mso-level-text:"%1\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level2 lfo4
+	{mso-level-numbering:continue;
+	mso-level-text:"%1\.%2\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level3 lfo4
+	{mso-level-numbering:continue;
+	mso-level-text:"%1\.%2\.%3\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level4 lfo4
+	{mso-level-numbering:continue;
+	mso-level-text:"%1\.%2\.%3\.%4\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level5 lfo4
+	{mso-level-numbering:continue;
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level6 lfo4
+	{mso-level-numbering:continue;
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level7 lfo4
+	{mso-level-numbering:continue;
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level8 lfo4
+	{mso-level-numbering:continue;
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level9 lfo4
+	{mso-level-numbering:continue;
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9\.";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:等线;
+	mso-ascii-font-family:等线;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:等线;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:等线;
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2049"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN link="#609700" vlink="#954F72" style='tab-interval:21.0pt;
+text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt;padding: 2% 18%;'>
+
+<p align=center style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;
+margin-left:0cm;text-align:center;line-height:13.5pt;background:white'><strong><span
+lang=EN-US style='font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>JVS</span></strong><strong><span
+style='font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>快速开发服务平台使用协议议</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p align=right style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;
+margin-left:0cm;text-align:right;line-height:13.5pt;background:white;
+word-break:break-all'><strong><u><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体;mso-bidi-font-family:Tahoma;color:black'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></u></strong><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>欢迎使用快速开发服务平台产品及服务！</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>提示：在使用快速开发服务平台服务之前，您应当认真阅读并遵守《快速开发服务平台服务协议》（下称“本协议”）。<strong><span
+style='font-family:宋体;mso-bidi-font-family:Tahoma'>请您务必审慎阅读、充分理解各条款内容，特别是免除或者限制责任的条款、争议解决和法律适用条款。免除或者限制责任的条款可能将以加粗字体显示，您应重点阅读</span></strong>。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>当您按照注册页面、企业组织创建页面等提示信息、同意本协议并完成帐号注册或快速开发服务平台企业组织创建，或您以快速开发服务平台允许的方式实际使用本服务时，即表示您已充分阅读、理解并接受本协议的全部内容，本协议即产生法律约束力，届时您不应以未阅读本协议的内容或者未获得快速开发服务平台对您问询的解答等理由，主张本协议无效或要求撤销本协议</span></strong><span
+style='font-size:10.5pt;mso-bidi-font-family:Tahoma;color:black'>。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>如果用户未满<span lang=EN-US>18</span>周岁，请在法定监护人的陪同下阅读本协议及其他上述协议，并特别注意未成年人使用条款。</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span lang=EN-US style='font-size:10.5pt;font-family:
+宋体;mso-bidi-font-family:Tahoma;color:black'>&nbsp;</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>一、定义条款</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、<strong><u><span style='font-family:宋体;mso-bidi-font-family:
+Tahoma'>快速开发服务平台个人用户</span></u></strong>，是指个人通过手机号码和验证码注册快速开发服务平台帐号，或使用快速开发服务平台允许的第三方帐号授权登录快速开发服务平台，未加入任何快速开发服务平台企业组织，无企业组织身份<span
+lang=EN-US>/</span>不以企业组最终用户身份使用快速开发服务平台服务的用户。</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、<strong><u><span style='font-family:宋体;mso-bidi-font-family:
+Tahoma'>快速开发服务平台企业组织用户</span></u></strong>，是指仅企业组织授权的管理员代企业组织创建快速开发服务平台企业组织架构，邀请组织成员作为企业组织最终用户下载、注册快速开发服务平台帐号或为最终用户配置专属账号，完成快速开发服务平台企业组织创建后，由企业组织授权管理员配置、开通、管理和使用快速开发服务平台办公应用进行在线移动办公、沟通与协同的用户。快速开发服务平台企业组快速开发服务平台织用户含快速开发服务平台认证企业组织和非认证企业组织。快速开发服务平台企业组织用户包括但不限于法人、政府机构、其他组织、合伙或个体工商户等。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>&nbsp;</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>二、缔约主体</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、本协议是由无企业组织身份的<strong><u><span style='font-family:宋体;
+mso-bidi-font-family:Tahoma'>快速开发服务平台个人用户</span></u></strong>以及<strong><u><span
+style='font-family:宋体;mso-bidi-font-family:Tahoma'>企业组织用户</span></u></strong>（含管理员及最终用户）与<strong><u><span
+style='font-family:宋体;mso-bidi-font-family:Tahoma'>快速开发服务平台服务提供者</span></u></strong>之间关于用户下载、安装、使用、复制本软件，以及使用快速开发服务平台相关服务，在杭州市余杭区共同缔结的协议。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、前述快速开发服务平台个人用户、快速开发服务平台企业组织用户及其管理员和最终用户，统称为“<strong><span
+style='font-family:宋体;mso-bidi-font-family:Tahoma'>用户</span></strong>”或“<strong><span
+style='font-family:宋体;mso-bidi-font-family:Tahoma'>您</span></strong>”。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、<strong><u><span style='font-family:宋体;mso-bidi-font-family:
+Tahoma'>快速开发服务平台服务提供者</span></u></strong>包为一群快乐的<span lang=EN-US>90</span>后小青年，以上快速开发服务平台服务提供者统称为“<strong><span
+style='font-family:宋体;mso-bidi-font-family:Tahoma'>快速开发服务平台</span></strong>”或“<strong><span
+style='font-family:宋体;mso-bidi-font-family:Tahoma'>我们</span></strong>”。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>&nbsp;</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>三、协议内容和效力</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、本协议内容包括本协议正文及所有我们已经发布或将来可能发布的隐私权政策、各项政策、规则、声明、通知、警示、提示、说明（以下简称“规则”）</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、快速开发服务平台公司有权根据需要不时制订、修改本协议及相关规则，变更后的协议和规则将通过快速开发服务平台客户端通知，如您不同意相关变更，应当立即停止使用快速开发服务平台服务；如您继续使用快速开发服务平台服务或进行任何网站活动，即表示您已接受经修订的协议和规则。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-family:
+Tahoma;color:black'>&nbsp;</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>四、服务内容</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span lang=EN-US style='font-size:10.5pt;font-family:
+宋体;mso-bidi-font-family:Tahoma;color:black'>4.1</span></strong><strong><span
+style='font-size:10.5pt;font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>快速开发服务平台服务内容</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、快速开发服务平台服务包括快速开发服务平台客户端及快速开发服务平台网页版（域名为<span lang=EN-US>bctools.cn</span>）、快速开发服务平台官网（<span
+lang=EN-US>official.bctools.cn</span>）、快速开发服务平台知识库（<span lang=EN-US>knowledge.bctools.cn</span>）、快速开发服务平台会议（<span
+lang=EN-US>meeting.bctools.cn</span>）、快速开发服务平台自有品牌智能硬件以及将快速开发服务平台部分功能<span
+lang=EN-US>/</span>服务作为第三方服务集成其他软件硬件中的服务，以上统称“<strong><span style='font-family:
+宋体;mso-bidi-font-family:Tahoma'>快速开发服务平台服务</span></strong>”，具体以服务实现形式为准。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、<strong><span style='font-family:宋体;mso-bidi-font-family:
+Tahoma'>本协议不适用于任何其他第三方服务。</span></strong></span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、本服务中快速开发服务平台客户端软件提供包括但不限于<span lang=EN-US>Windows</span>、<span
+lang=EN-US>Mac</span>、<span lang=EN-US>iOS</span>、<span lang=EN-US>Android</span>以及其他操作系统适配服务等多个应用版本（具体以快速开发服务平台提供的版本为准）。用户可自行选择与所安装终端设备相匹配的软件版本。快速开发服务平台会不断更新应用版本等，如用户已注册使用一种版本的服务，则可以以同一帐号使用其他版本的服务，本协议自动适用于用户所使用的所有版本的软件和服务。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span lang=EN-US style='font-size:10.5pt;font-family:
+宋体;mso-bidi-font-family:Tahoma;color:black'>4.2</span></strong><strong><span
+style='font-size:10.5pt;font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>快速开发服务平台服务形式</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>快速开发服务平台服务包括面向无企业组织身份的快速开发服务平台个人用户提供在线沟通服务，以及面向快速开发服务平台企业组织用户提供的数字化在线移动办公、沟通与协同服务。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span lang=EN-US style='font-size:10.5pt;font-family:
+宋体;mso-bidi-font-family:Tahoma;color:black'>4.2.1</span></strong><strong><span
+style='font-size:10.5pt;font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>快速开发服务平台个人用户服务</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>快速开发服务平台个人服务，是指个人用户通过手机号码和验证码注册快速开发服务平台帐号，或使用快速开发服务平台允许的第三方帐号授权登录快速开发服务平台，未加入任何快速开发服务平台企业组织（含认证企业组织
+和和非认证企业组织、以及虚拟组织），以无企业组织最终用户身份使用快速开发服务平台服务，亦称“<strong><span style='font-family:
+宋体;mso-bidi-font-family:Tahoma'>快速开发服务平台个人域服务</span></strong>”。快速开发服务平台个人用户服务包括但不限于如下服务：</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、<u>个人信息</u>，包括昵称、头像、手机号、性别、生日、地区、个人实人认证、我的家庭等，您可以通过<span
+lang=EN-US>[</span>快速开发服务平台客户端<span lang=EN-US>-</span>我的<span lang=EN-US>-</span>设置<span
+lang=EN-US>-</span>我的信息<span lang=EN-US>]</span>自行修改和完善您的个人信息。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span lang=EN-US style='font-size:10.5pt;font-family:
+宋体;mso-bidi-font-family:Tahoma;color:black'>4.2.2</span></strong><strong><span
+style='font-size:10.5pt;font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>快速开发服务平台企业组织服务</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、快速开发服务平台企业组织服务，是指管理员代表快速开发服务平台企业组织用户创建快速开发服务平台企业组织架构，邀请组织成员下载并注册成为快速开发服务平台最终用户，由管理员配置、开通、管理和使用快速开发服务平台办公应用，实现企业组织的组织数字化和业务数字化，亦称“<strong><span
+style='font-family:宋体;mso-bidi-font-family:Tahoma'>快速开发服务平台办公域服务</span></strong>”。快速开发服务平台企业组织服务包括但不限于如下服务<span
+lang=EN-US>:</span></span><span lang=EN-US style='font-size:9.0pt;font-family:
+"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>（<span lang=EN-US>1</span>）<u>企业通讯录</u>，由管理员导入企业组织通讯录并邀请最终用户创建快速开发服务平台企业组织。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>（<span lang=EN-US>2</span>）<u>快速开发服务平台企业组织创建</u>，是指管理员代表快速开发服务平台企业组织用户创建快速开发服务平台企业组织架构，邀请组织成员下载并注册成为快速开发服务平台最终用户，由管理员配置、开通、管理和使用快速开发服务平台办公应用，实现企业组织的组织数字化和业务数字化。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>（<span lang=EN-US>3</span>）<u>认证组织同名保护服务</u>，即对快速开发服务平台企业组织用户展示认证标识和对认证同名组织创建予以保护服务；</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>（<span lang=EN-US>4</span>）<u>快速开发服务平台<span lang=EN-US>OA</span>工作台服务</u>，提供企业组织基于快速开发服务平台<span
+lang=EN-US>OA</span>工作台，对企业组织进行配置管理服务、数据查看、增值服务开通以及其他快速开发服务平台服务以及其他第三方应用<span
+lang=EN-US>/</span>服务进行开通、配置和管理相关的服务。<strong><u><span style='font-family:宋体;
+mso-bidi-font-family:Tahoma'> </span></u></strong></span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、企业组织用户及管理员理解并同意，在管理员对企业组织成员的最终用户进行管理之前，应向企业组织成员或最终用户充分说明基于企业人力资源管理、企业办公运营、信息安全管控需求所开通的快速开发服务平台相关服务。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、企业组织用户、管理员及最终用户理解并同意：</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>管理员在最终用户使用快速开发服务平台服务进行在线移动办公、沟通与协同时，有权基于企业人力资源管理、企业办公运营、信息安全管控需求，对您作为企业组织成员身份及基于该身份的相关权益进行管理，包括但不限于加入、删除以及调整权限和限制服务内容等。您在遵守本协议及相关快速开发服务平台服务规范同时，应当按照企业组织的内容发布规范、信息安全规范等使用快速开发服务平台服务，具体以管理员实际开通、配置和管理相依的快速开发服务平台服务实现为准。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span lang=EN-US style='font-size:10.5pt;font-family:
+宋体;mso-bidi-font-family:Tahoma;color:black'>4.3</span></strong><strong><span
+style='font-size:10.5pt;font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>委托数据处理服务</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span lang=EN-US style='font-size:10.5pt;font-family:
+宋体;mso-bidi-font-family:Tahoma;color:black'>4.3.1</span></strong><strong><span
+style='font-size:10.5pt;font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>企业控制数据委托处理</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>就企业组织用户及管理员开通和使用相关快速开发服务平台服务，快速开发服务平台会根据管理员上载、配置、开通、设置、发布、传输、存储、共享、删除、撤回、注销以及其他代表企业组织的操作行为和指令，收集、存储、使用、加工、传输、提供、公开、删除最终用户使用快速开发服务平台相关功能<span
+lang=EN-US>/</span>应用过程中提交或产生的企业组织控制数据，包括任何格式在快速开发服务平台上上载、发布、传输、存储、共享、撤回或删除所有数据（含最终用户的个人数据）、软件、设备、文本、图像、视频、音频、照片、第三方应用程序、信息、材料。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span lang=EN-US style='font-size:10.5pt;font-family:
+宋体;mso-bidi-font-family:Tahoma;color:black'>4.3.2</span></strong><strong><span
+style='font-size:10.5pt;font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>最终用户个人信息委托处理</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>就企业组织控制数据所涉最终用户的个人信息，认证用户及其管理员理解并同意：</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、<u>委托处理</u>。最终用户使用快速开发服务平台服务进行在线移动办公、沟通与协同中上载、发布、传输、存储、共享、撤回的信息、数据和资料以及其他使用快速开发服务平台服务时产生的最终用户个人信息。认证用户基于与最终用户订立、履行最终用户作为一方当事人的合同所必需，或者通过依法制定的劳动规章制度和依法与最终用户签订的集体合同实施人力资源管理所必需，有权作为个人处理者处理最终用户的个人信息，并委托快速开发服务平台限于管理员开通、管理和使用快速开发服务平台服务实现在线移动办公、沟通与协同的目的和范围内，基于合理必要性，处理最终用户的个人信息。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、<u>最终用户信息处理限制</u>。快速开发服务平台仅在为实现企业组织数字化办公目的、在快速开发服务平台企业组织存续期间、基于快速开发服务平台服务实现的方式收集、存储、处理、传输、共享企业组织控制数据，未经管理员同意，快速开发服务平台将不会转委托他人处理企业组织控制数据。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、<strong><span style='font-family:宋体;mso-bidi-font-family:
+Tahoma'>未免疑义，在企业自建应用服务以及其他在第三方应用服务中，企业组织用户及其管理员是最终用户个人信息的处理者，快速开发服务平台仅为认证用户及第三方服务商提供平台技术服务，快速开发服务平台不就第三方应用服务商处理最终用户信息承担连带保证责任。</span></strong></span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>&nbsp;</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>五、快速开发服务平台软件许可使用</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、授权使用。快速开发服务平台依据本协议，许可您一项不可转让的、非排他性的许可使用快速开发服务平台服务。您可以制作本软件的一个副本，仅用作备份。备份副本必须包含原软件中含有的所有著作权信息。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、授权使用限制。除非另有说明，您就本协议项下快速开发服务平台服务仅限于非商业用途使用。您承诺不对本服务任何部分或本服务之使用或获得，进行复制、拷贝、出售、转售或用于包括但不限于广告及任何其它商业目的。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、权利保留。本条及本协议其他条款未明示授权的其他一切权利仍由快速开发服务平台公司保留，您在行使这些权利时须另外取得快速开发服务平台公司的书面许可。快速开发服务平台公司如果未行使前述任何权利，并不构成对该权利的放弃。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>&nbsp;</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>六、软件的更新</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、为了改善用户体验、完善服务内容及形式，快速开发服务平台将不断努力开发新的服务，并为用户不时提供软件更新，包括可能采取软件替换、修改、功能强化、版本升级等形式。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、为了保证本软件及服务的安全性和功能的一致性，快速开发服务平台有权不经向用户特别通知而对软件进行更新，或者对软件的部分功能效果进行改变或限制，请用户及时下载最新版本。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、用户理解并同意，快速开发服务平台可能通过公告、更新日志等方式，通过快速开发服务平台官网、快速开发服务平台客户端或相应应用实现开发者信息页面向用户通知软件更新情况，快速开发服务平台无需向用户做出特别通知。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-family:
+Tahoma;color:black'>&nbsp;</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>七、帐号注册与管理</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>为访问与使用功能完整的快速开发服务平台个人服务和快速开发服务平台企业组织服务，您有可以<span lang=EN-US>1</span>）通过个人手机号注册快速开发服务平台帐号（亦称“快速开发服务平台分发帐号”）、<span
+lang=EN-US>2</span>）使用快速开发服务平台认可的其他第三方应用帐号授权登录快速开发服务平台（亦称“三方授权帐号”）以及<span
+lang=EN-US>3</span>）使用企业组织配置专属帐号（“企业配置帐号”）三种账号方式登录和使用快速开发服务平台服务。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>7.1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>个人手机号注册快速开发服务平台帐号</span><span lang=EN-US style='font-size:
+9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>作为无企业组织身份的个人用户、以及企业组织管理员和最终用户，可以使用个人手机号码和验证码完成快速开发服务平台帐号的注册。您应当：</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、具备完全民事权利能力和与所从事的民事行为相适应的行为能力的自然人，或已获得企业组织的授权代表企业组织申请快速开发服务平台分发帐号并作为管理员以创建快速开发服务平台企业组织。若您不具备前述主体资格，请勿使用服务，否则您及您的监护人应承担因此而导致的一切后果，且快速开发服务平台公司有权注销（永久冻结）您的账户，并向您及您的监护人索偿。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您注册时应提交真实、准确、完整和反映当前情况的身份及其他相关信息。您承诺注册的帐号名称、设置的快速开发服务平台号、头像和简介等信息中不得出现违法和不良信息，不得冒充他人，不得未经许可为他人注册，不得以可能导致其他用户误认的方式注册帐号或设置快速开发服务平台号，不得使用可能侵犯他人权益的用户名（包括但不限于涉嫌商标权、名誉权侵权等），否则快速开发服务平台公司有权不予注册或停止服务并收回帐号及快速开发服务平台号，因此产生的损失由您自行承担。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您了解并同意，快速开发服务平台分发帐号所有权归属于快速开发服务平台公司，注册完成后，您仅获得帐号使用权，您不得以任何方式转让或被提供他人使用您的快速开发服务平台帐号，否则快速开发服务平台公司有权立即不经通知收回该帐号，由此带来的因您使用本服务产生的全部数据、信息等被清空、丢失等的损失，您应自行承担。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>4</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您了解并同意，如您注册快速开发服务平台帐号后连续超过<span lang=EN-US>12</span>个月未登录，快速开发服务平台公司为优化管理等目的，有权回收该帐号。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><u><span lang=EN-US style='font-size:10.5pt;
+font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>7.2</span></u></strong><strong><u><span
+style='font-size:10.5pt;font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>快速开发服务平台企业组织专属帐号</span></u></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、快速开发服务平台暂不支持无企业组织的个人用户通过配置专属帐号实现服务。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、在快速开发服务平台认证企业组织场景，快速开发服务平台企业组织用户为管理员及最终用户配置的专属帐号归属用人单位所有，管理员有权代表快速开发服务平台企业组织用户管理专属帐号，包括但不限于配置专属帐号、查看专属帐号的登录信息和数据安全情况、停用、封禁或注销专属帐号等。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span lang=EN-US style='font-size:10.5pt;font-family:
+宋体;mso-bidi-font-family:Tahoma;color:black'>7.3</span></strong><strong><span
+style='font-size:10.5pt;font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>帐号权责</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>7.3.1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>个人帐号使用权责</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您确认，在您完成注册程序或以其他快速开发服务平台公司允许的方式实际使用服务时，您应当是具备完全民事权利能力和与所从事的民事行为相适应的行为能力的自然人、法人或其他组织。若您不具备前述主体资格，请勿使用服务，否则您及您的监护人应承担因此而导致的一切后果，且快速开发服务平台公司有权注销（永久冻结）您的账户，并向您及您的监护人索偿。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您理解并同意，您承诺注册的帐号名称、设置的快速开发服务平台号、头像和简介等信息中不得出现违法和不良信息，不得冒充他人，不得未经许可为他人注册，不得以可能导致其他用户误认的方式注册帐号或设置快速开发服务平台号，不得使用可能侵犯他人权益的用户名（包括但不限于涉嫌商标权、名誉权侵权等），否则快速开发服务平台公司有权不予注册或停止服务并收回帐号及快速开发服务平台号，因此产生的损失由您自行承担。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您理解并同意，快速开发服务平台注册帐号（包括客户端帐号及服务管理帐号）所有权归属于快速开发服务平台公司，注册完成后，您仅获得帐号使用权。快速开发服务平台帐号使用权仅归属于初始申请注册人，不得以任何方式转让或被提供予他人使用，否则，快速开发服务平台公司有权立即不经通知收回该帐号，由此带来的因您使用本服务产生的全部数据、信息等被清空、丢失等的损失，您应自行承担。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>4</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您理解并同意，如您注册快速开发服务平台帐号后连续超过<span lang=EN-US>12</span>个月未登录，快速开发服务平台公司为优化管理等目的，有权回收该帐号。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>7.3.2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>管理员帐号管理权责</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、管理员帐号为代表企业组织形式的企业帐号，请您确保已获得快速开发服务平台企业组织用户的充分授权并能够代表快速开发服务平台企业组织用户身份行事。快速开发服务平台有理由认为您与您所在的企业或组织签署了相应的服务协议和隐私政策或其他具有相同或类似性质的协议或规则，并受其约束，因此而引起的纠纷，我们将无义务解决且不承担相关责任。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、管理员帐号实施的操作、行为和指令，将被默认代表一家企业或其他法律主体进行创建或以其他钉允许的方式实际使用本服务。企业管理员帐号用户有权管理企业帐号项下的企业非管理员帐号的最终用户，包括选择最终用户并设置为子管理员，设置并选择最终用户使用考勤打卡方式等。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、此外，管理员声明和保证：</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>（<span lang=EN-US>1</span>）邀请组织成员加入快速开发服务平台企业组织用户开展在线移动办公、沟通与协同，应确保向组织成员充分说明法律依据，诸如为订立、履行个人作为一方当事人的合同所必需，或者按照依法制定的劳动规章制度和依法签订的集体合同实施人力资源管理所必需，以最终用户注册快速开发服务平台帐号或使用专属帐号并使用快速开发服务平台服务。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>（<span lang=EN-US>2</span>）保守使用快速开发服务平台服务过程中知悉的企业商业秘密、保护最终用户个人信息和个人隐私及其他权益。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>（<span lang=EN-US>3</span>）保障管理员帐号的保密性和登录企业<span lang=EN-US>OA</span>管理工作台信息的安全性，不得以任何方式转让或提供给他人使用你的管理员身份帐号。</span><span
+lang=EN-US style='font-size:9.0pt;mso-bidi-font-family:Tahoma;color:black'>&nbsp;</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>如您作为企业组织用户申请管理员帐号或子管理员帐号，则应自行添加、指定或变更管理成员和<span
+lang=EN-US>/</span>或子管理员，并对管理成员的行为自行承担责任；快速开发服务平台根据您管理员<span lang=EN-US>/</span>子管理员帐号的行为对所在企业组织成员服务的调整亦由您承担后果，因此给快速开发服务平台公司或他人造成损失的，您应当予以赔偿。</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>7.3.3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>专属帐号管理权责</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>如企业组织用户开通并使用快速开发服务平台专属域帐号服务，您理解并同意：</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、专属域帐号管控。专属域帐号由认证企业组织管控，归属企业组织用户所有。管理员有权代表企业组织管理专属帐号，包括但不限于向最终用户配置专属帐号、查看最终用户专属帐号的登录信息和数据安全情况，有权单方停用、封禁或注销最终用的专属帐号等。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span lang=EN-US style='font-size:10.5pt;font-family:
+宋体;mso-bidi-font-family:Tahoma;color:black'>7.4</span></strong><strong><span
+style='font-size:10.5pt;font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>帐号注销</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、个人用户帐号注销。如您作为无企业组织身份的个人用户注销快速开发服务平台或停止使用服务时，快速开发服务平台公司有权自行对帐号相关内容及信息以包括但不限于删除等方式进行处理，且无需就此向用户承担任何责任。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、企业组织解散。当管理员帐号操作解散企业组织时，请谨慎操作企业组织解散流程。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>&nbsp;</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>八、快速开发服务平台服务使用规范</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>您承诺不会利用本服务进行任何违法或不当的活动，包括但不限于下列行为<span lang=EN-US>:</span></span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span lang=EN-US style='font-size:10.5pt;font-family:
+宋体;mso-bidi-font-family:Tahoma;color:black'>8.1</span></strong><strong><span
+style='font-size:10.5pt;font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>内容发布规范</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>您作为快速开发服务平台用户和内容生产者，禁止使用快速开发服务平台服务制作、复制、发布含有下列内容的违法信息：</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、反对宪法所确定的基本原则的；</span><span lang=EN-US style='font-size:
+9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、损害国家荣誉和利益的；</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>4</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、歪曲、丑化、亵渎、否定英雄烈士事迹和精神，以侮辱、诽谤或者其他方式侵害英雄烈士的姓名、肖像、名誉、荣誉的；</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>5</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、宣扬恐怖主义、极端主义或者煽动实施恐怖活动、极端主义活动的；</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>6</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、煽动民族仇恨、民族歧视，破坏民族团结的；</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>7</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、破坏国家宗教政策，宣扬邪教和封建迷信的；</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>8</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、散布谣言，扰乱经济秩序和社会秩序的；</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>9</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>10</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、侮辱或者诽谤他人，侵害他人名誉、隐私和其他合法权益的；</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>11</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、法律、行政法规禁止的其他内容。</span><span lang=EN-US style='font-size:
+9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span lang=EN-US style='font-size:10.5pt;font-family:
+宋体;mso-bidi-font-family:Tahoma;color:black'>8.2&nbsp;</span></strong><strong><span
+style='font-size:10.5pt;font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>软件使用规范</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>您承诺不对本软件和服务从事以下行为：</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、将有关干扰、破坏或限制任何计算机软件、硬件或通讯设备功能的软件病毒或其他计算机代码、档案和程序之资料，加以上载、张贴、发送电子邮件或以其他方式传送；</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、干扰或破坏本服务或与本服务相连线之服务器和网络，或违反任何关于本服务连线网络之规定、程序、政策或规范；</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、通过修改或伪造软件运行中的指令、数据，增加、删减、变动软件的功能或运行效果，或者将用于上述用途的软件、方法进行运营或向公众传播，无论这些行为是否为商业目的；</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>4</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、自行、授权他人或利用第三方软件对本软件及其组件、模块、数据等进行干扰。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span lang=EN-US style='font-size:10.5pt;font-family:
+宋体;mso-bidi-font-family:Tahoma;color:black'>8.3&nbsp;</span></strong><strong><span
+style='font-size:10.5pt;font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>行为规范</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>除非法律允许或快速开发服务平台书面许可，您使用本服务过程中不得从事下列行为：</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、提交、发布虚假信息，或冒充、利用他人名义的；</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、诱导其他用户点击链接页面或分享信息的；</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、虚构事实、隐瞒真相以误导、欺骗他人的；</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>4</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、侵害他人名誉权、肖像权、知识产权、商业秘密等合法权益的；</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>5</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、未经快速开发服务平台书面许可利用快速开发服务平台帐号和任何功能，进行推广或互相推广的；</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>6</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、利用快速开发服务平台帐号或本软件及服务从事任何违法犯罪活动的；</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>7</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、制作、发布与以上行为相关的方法、工具，或对此类方法、工具进行运营或传播，无论这些行为是否为商业目的；</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>8</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、从事违反法律法规规定<span lang=EN-US>,</span>侵犯其他用户合法权益、干扰产品正常运营或快速开发服务平台未明示授权的行为；</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>9</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、其他违反遵守法律法规、社会主义制度、国家利益、公民合法利益、公共秩序、社会道德风尚和信息真实性等“七条底线”要求的行为。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span lang=EN-US style='font-size:10.5pt;font-family:
+宋体;mso-bidi-font-family:Tahoma;color:black'>8.4&nbsp;</span></strong><strong><span
+style='font-size:10.5pt;font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>对自己行为负责</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您充分理解并同意，快速开发服务平台用户使用快速开发服务平台服务，应当为自己一切行为负责，包括用户所发表的任何内容、使用快速开发服务平台实施的行为及由此产生的任何后果。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您应对本服务中的内容自行加以判断，包括可能发生来自他人非法或不当行为（或信息）的风险，您应自行判断及行动并承担因使用内容而引起的所有风险，包括因对内容的正确性、完整性或实用性的依赖而产生的风险。快速开发服务平台无法且不会对因前述风险而导致的任何损失或损害承担责任。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、如您在快速开发服务平台客户端使用支付宝向您通过的红包功能或收付、转账功能的，应当依照法律、法规等规范性文件的规定开展，不得以非法方式使用红包功能或收付、转账功能，也不得将红包功能或支付、转账功能用于实施非法活动，例如实施赌博、非法吸收公众存款、集资诈骗、开展传销等违法犯罪行为，或为违法犯罪行为提供协助。因此给快速开发服务平台公司或他人造成损失的，您应当予以赔偿。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-family:
+Tahoma;color:black'>&nbsp;</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>九、快速开发服务平台处置规范</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您同意并接受快速开发服务平台公司有权对您使用服务的情况进行审查、监督并依法和以及本协议采取相应行动，包括但不限于删除信息、中止或终止服务及向有关机关报告。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、若您违反法律法规、侵犯第三方合法权益或违反本协议及相关各项协议、约定、管理规则的，包括快速开发服务平台公司发现或收到他人举报知道的，快速开发服务平台公司有权依照相关法律法规的规定对相关举报内容核实、转通知以及删除、屏蔽等措施，以及采取包括但不限于收回帐号，限制、暂停、终止您使用部分或全部本服务，追究法律责任、向有权监管机构进行通报和对快速开发服务平台企业组织用户违法违规行为公示等措施。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、如果是您使用了快速开发服务平台相关付费应用服务，快速开发服务平台公司有权单方限期要求整改、限制服务使用，直至中止终止相应服务且无需承担违约责任；</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>4</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、如因您方发布的内容、从事的行为导致第三方诉讼、投诉、索赔或导致快速开发服务平台公司受到行政处罚的，您方应自行承担全部责任并使快速开发服务平台免于损害赔偿，赔偿快速开发服务平台因此造成的合理损失。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>十、服务费用</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、本服务的任何免费试用或免费功能和服务不应视为快速开发服务平台公司放弃后续收费的权利。快速开发服务平台公司有权提前<span
+lang=EN-US>7</span>天在快速开发服务平台官网上和<span lang=EN-US>/</span>或具体快速开发服务平台服务应用内以公告的形式通知您收费标准及收费方式。若您继续使用相关快速开发服务平台服务，则需按快速开发服务平台公司公布的收费标准支付相应费用。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、快速开发服务平台有权根据实际情况提前<span lang=EN-US>7</span>天单方调整费用标准及收费方式，并以公告形式通知您，而无需获得您的事先同意，如您不同意收费应当立即停止服务的使用，否则使用则视为您已同意并应当缴纳费用。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>4</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您应当自行支付使用本服务可能产生的上网费、流量费以及其他第三方收取的通讯费、信息费等。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>5</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您理解并同意，在使用本软件中的多方通信服务及语音服务时，快速开发服务平台服务需通过电信运营商提供的网络提供服务，快速开发服务平台公司及电信运营商将向您收取一定通信费用（也包括如用户处于异地漫游状态时需支付漫游接听费用）。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>&nbsp;</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>十一、服务中止或终止</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、鉴于互联网服务的特殊性，快速开发服务平台公司有权对服务内容进行变更，也可能会中断、中止或终止全部或者任一部分的服务，包括免费服务和<span
+lang=EN-US>/</span>或收费服务，并在快速开发服务平台官网上以公示的形式通知您。</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您了解并同意，快速开发服务平台公司可能定期或不定期地对提供网络服务的平台设备、设施和软硬件进行维护或检修，如因此类情况而造成收费服务在合理时间内中止，快速开发服务平台公司无需承担责任，但应事先在快速开发服务平台官网以公示的形式通告您。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、如存在下列违约情形之一，快速开发服务平台公司有权立即对您中止或终止服务，并要求您赔偿损失：</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>（<span lang=EN-US>1</span>） 用户违反本协议<strong><u><span
+style='font-family:宋体;mso-bidi-font-family:Tahoma'>第七条 账号注册与管理</span></u></strong>义务；</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>（<span lang=EN-US>2</span>） 用户使用收费网络服务时未按规定支付相应服务费；</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span style='font-size:10.5pt;mso-bidi-font-family:Tahoma;
+color:black'>（<span lang=EN-US>3</span>） 用户违反本协议<strong><u><span
+style='font-family:宋体;mso-bidi-font-family:Tahoma'>第八条 快速开发服务平台服务使用规范</span></u></strong>规定的义务。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>&nbsp;</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>十二、隐私政策</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您在快速开发服务平台服务注册的账户具有密码保护功能，以确保您基本信息资料的安全，请您妥善保管账户及密码信息。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、快速开发服务平台公司努力采取各种合理的物理、电子和管理方面的安全措施来保护您的信息，使您存储在快速开发服务平台中的信息和通信内容不会被泄漏、毁损或者丢失，包括但不限于<span
+lang=EN-US>SSL</span>、信息加密存储、数据中心的访问控制。我们对可能接触到信息的员工或外包人员也采取了严格管理，包括但不限于根据岗位的不同采取不同的权限控制，与他们签署保密协议，监控他们的操作情况等措施。快速开发服务平台会按现有技术提供相应的安全措施来保护您的信息，提供合理的安全保障，快速开发服务平台将在任何时候尽力做到使您的信息不被泄漏、毁损或丢失，但同时也请您注意在信息网络上不存在绝对完善的安全措施，请妥善保管好相关信息。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您应当保管好终端、帐号及密码，并妥善保管相关信息和内容。因您自身原因导致的数据丢失或被盗以及在本软件及服务中相关数据的删除或储存失败的责任由您自行承担。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-family:
+Tahoma;color:black'>&nbsp;</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>&nbsp;</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>十三、有限责任</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、<strong><span style='font-family:宋体;mso-bidi-font-family:
+Tahoma'>服务将按<span lang=EN-US>&quot;</span>现状<span lang=EN-US>&quot;</span>和按<span
+lang=EN-US>&quot;</span>可得到<span lang=EN-US>&quot;</span>的状态提供。快速开发服务平台公司在此明确声明对服务不作任何明示或暗示的保证，包括但不限于对服务的可适用性，没有错误或疏漏，持续性，准确性，可靠性，适用于某一特定用途之类的保证，声明或承诺。</span></strong></span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span lang=EN-US style='font-size:10.5pt;font-family:
+宋体;mso-bidi-font-family:Tahoma;color:black'>2</span></strong><strong><span
+style='font-size:10.5pt;font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>、快速开发服务平台对服务所涉的技术和信息的有效性，准确性，正确性，可靠性，质量，稳定，完整和及时性均不作承诺和保证</span></strong><span
+style='font-size:10.5pt;mso-bidi-font-family:Tahoma;color:black'>。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>3</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、不论在何种情况下，快速开发服务平台均不对由于<span lang=EN-US>Internet</span>连接故障，电脑，通讯或其他系统的故障，电力故障，罢工，劳动争议，暴乱，起义，骚乱，生产力或生产资料不足，火灾，洪水，风暴，爆炸，不可抗力，战争，政府行为，国际、国内法院的命令或第三方的不作为而造成的不能服务或延迟服务承担责任。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>4</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、<strong><span style='font-family:宋体;mso-bidi-font-family:
+Tahoma'>不论是否可以预见，不论是源于何种形式的行为，快速开发服务平台不对由以下原因造成的任何特别的，直接的，间接的，惩罚性的，突发性的或有因果关系的损害或其他任何损害（包括但不限于利润或利息的损失，营业中止，资料灭失）承担责任：</span></strong></span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>4.1 </span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>使用或不能使用相应快速开发服务平台服务；</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>4.2 </span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>通过服务购买或获取任何产品，样品，数据，信息或进行交易等，或其他可替代上述行为的行为而产生的费用；</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>4.3 </span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>未经授权的存取或修改数据或数据的传输；</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>4.4 </span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>第三方通过服务所作的陈述或行为；</span><span lang=EN-US style='font-size:
+9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>4.5 </span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>其它与服务相关事件，包括疏忽等，所造成的损害。</span><span lang=EN-US
+style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>5</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您充分了解并同意，鉴于互联网体制及环境的特殊性，您在服务中分享的信息及个人资料有可能会被他人复制、转载、擅改或做其它非法用途；您在此已充分意识此类风险的存在，并确认此等风险应完全由您自行承担，快速开发服务平台对此不承担任何责任。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>6</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您了解并同意，在使用服务过程中可能存在来自任何他人的包括威胁性的、诽谤性的、令人反感的或非法的内容或行为或对他人权利的侵犯（包括知识产权）及匿名或冒名的信息的风险，基于服务使用规范所述，该等风险应由您自行承担，快速开发服务平台对此不承担任何责任。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:9.0pt;mso-bidi-font-family:
+Tahoma;color:black'>&nbsp;</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>十四、违约责任及赔偿</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、如果我们发现或收到他人举报您有违反本协议约定的，快速开发服务平台公司有权不经通知随时对相关内容进行删除、屏蔽，并采取包括但不限于限制、暂停、终止您使用快速开发服务平台帐号及服务，限制、暂停、终止您使用部分或全部本服务（包括但不限于解除与团体或成员的所属关系，删除通信录、限制增加成员、限制发送消息或添加好友等），追究法律责任等措施。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span lang=EN-US style='font-size:10.5pt;font-family:
+宋体;mso-bidi-font-family:Tahoma;color:black'>2</span></strong><strong><span
+style='font-size:10.5pt;font-family:宋体;mso-bidi-font-family:Tahoma;color:black'>、您同意，由于您通过服务上载、传送或分享之信息、使用本服务其他功能、违反本协议、或您侵害他人任何权利因而衍生或导致任何第三人向快速开发服务平台公司及其关联公司提出任何索赔或请求，或快速开发服务平台公司及其关联公司因此而发生任何损失，您同意将足额进行赔偿（包括但不限于合理律师费）。</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>&nbsp;</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><strong><span style='font-size:10.5pt;font-family:宋体;
+mso-bidi-font-family:Tahoma;color:black'>十五、有效通知</span></strong><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>1</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、快速开发服务平台公司向您发出的任何通知，可采用电子邮件、页面公开区域公告、个人网络区域提示、手机短信或常规信件等方式，且该等通知应自发送之日起<span
+lang=EN-US>7</span>天内视为已向用户送达或生效。</span><span lang=EN-US style='font-size:9.0pt;
+font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+<p style='margin-top:0cm;margin-right:12.0pt;margin-bottom:7.5pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:13.5pt;
+background:white'><span lang=EN-US style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>2</span><span style='font-size:10.5pt;mso-bidi-font-family:
+Tahoma;color:black'>、您同意，您向快速开发服务平台发出的任何通知应发至快速开发服务平台公司对外正式公布或以第十九条所述方式告知用户的线上或线下联系方式、通信地址、电子邮件、等联系信息，或使用其他快速开发服务平台公司认可的其他通知方式进行送达。</span><span
+lang=EN-US style='font-size:9.0pt;font-family:"Tahoma",sans-serif;color:#333333'><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

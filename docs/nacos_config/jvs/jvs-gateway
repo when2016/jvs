@@ -1,0 +1,15 @@
+server: 
+  port: 10000
+#是否做加密数据返回处理
+gateway:
+  #网关返回数据加密,返回数据为R并为成功时才加密，失败不加密,只加密mgr的数据
+  encrypt: true
+  #前端对应的加密，后端权限扫描器数据传输加密,现只加密mgr的请求，其它请求不加密
+  encryptKey: jvs
+  
+spring:
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+

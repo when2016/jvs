@@ -1,0 +1,15 @@
+
+#扫码登录三方帐号和回调地址
+justauth:
+  enabled: true
+  cache:
+    type: redis
+    prefix: 'justauth:social:state:'
+    timeout: 1h
+  type:
+  #开放平台微信扫码登录，需要创建应用
+    WECHAT_OPEN:
+      client-id: 
+      client-secret: 
+      redirect-uri: 
+ 

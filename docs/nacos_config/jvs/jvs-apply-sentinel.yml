@@ -1,0 +1,7 @@
+server:
+  port: 8084
+auth:
+  #帐号
+  username: admin
+  #密码
+  password: admin
