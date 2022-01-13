@@ -7,7 +7,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: jvs-nacos:8848
+        server-addr: localhost:8848
         namespace: jvs
         group: ${spring.cloud.nacos.discovery.namespace}
       config:

@@ -7,7 +7,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: jvs-nacos:8848
+        server-addr: localhost:8848
         namespace: jvs
         group: ${spring.cloud.nacos.discovery.namespace}
       config:
@@ -23,7 +23,7 @@ spring:
     inetutils:
       #选择使用此网段进行处理
       preferred-networks: 10.1.*
-    sentinel.transport.dashboard: sentinel:8084
+    sentinel.transport.dashboard: localhost:8084
     sentinel.log.dir: log/sentinel
     ##取消Sentinel控制台懒加载,即项目启动即连接sentinel
 #    sentinel.eager: true

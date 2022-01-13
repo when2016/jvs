@@ -14,13 +14,6 @@
     <version>1.0.0</version>
 
     <dependencies>
-
-<!--        <dependency>-->
-<!--            <groupId>com.taobao.arthas</groupId>-->
-<!--            <artifactId>arthas-spring-boot-starter</artifactId>-->
-<!--            <version>3.4.5</version>-->
-<!--        </dependency>-->
-
         <dependency>
             <!-- 阿里巴巴EasyExcel-->
             <groupId>com.alibaba</groupId>

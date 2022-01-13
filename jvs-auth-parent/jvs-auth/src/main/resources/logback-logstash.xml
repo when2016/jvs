@@ -2,7 +2,7 @@
 <configuration debug="false">
     <springProperty scope="context" name="name" source="spring.application.name"/>
     <springProperty scope="context" name="version" source="project.version"/>
-    <springProperty scope="context" name="logstash.server-addr" source="logstash.server-addr"/>
+<!--    <springProperty scope="context" name="logstash.server-addr" source="logstash.server-addr"/>-->
     <!-- 控制台输出 -->
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
@@ -33,31 +33,32 @@
         </rollingPolicy>
     </appender>
 
-    <appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
-        <destination>${logstash.server-addr}</destination>
-        <includeCallerData>true</includeCallerData>
-        <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
-            <providers class="net.logstash.logback.composite.loggingevent.LoggingEventJsonProviders">
-                <timestamp>
-                    <timeZone>Asia/Shanghai</timeZone>
-                </timestamp>
-                <!--自定义日志输出格式-->
-                <pattern>
-                    <pattern>
-                        {
-                        "service": "${name}",
-                        "tid": "%tid",
-                        "day": "%d{\"yyyy-MM-dd\"}",
-                        "thread": "%thread",
-                        "level": "%level",
-                        "filepath": "%class:%line",
-                        "message": "%msg"
-                        }
-                    </pattern>
-                </pattern>
-            </providers>
-        </encoder>
-    </appender>
+
+<!--    <appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">-->
+<!--        <destination>${logstash.server-addr}</destination>-->
+<!--        <includeCallerData>true</includeCallerData>-->
+<!--        <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">-->
+<!--            <providers class="net.logstash.logback.composite.loggingevent.LoggingEventJsonProviders">-->
+<!--                <timestamp>-->
+<!--                    <timeZone>Asia/Shanghai</timeZone>-->
+<!--                </timestamp>-->
+<!--                &lt;!&ndash;自定义日志输出格式&ndash;&gt;-->
+<!--                <pattern>-->
+<!--                    <pattern>-->
+<!--                        {-->
+<!--                        "service": "${name}",-->
+<!--                        "tid": "%tid",-->
+<!--                        "day": "%d{\"yyyy-MM-dd\"}",-->
+<!--                        "thread": "%thread",-->
+<!--                        "level": "%level",-->
+<!--                        "filepath": "%class:%line",-->
+<!--                        "message": "%msg"-->
+<!--                        }-->
+<!--                    </pattern>-->
+<!--                </pattern>-->
+<!--            </providers>-->
+<!--        </encoder>-->
+<!--    </appender>-->
 
     <logger name="org.mybatis">
         <level value="TRACE"/>
@@ -65,7 +66,7 @@
 
     <!-- 日志输出级别 -->
     <root level="info">
-        <appender-ref ref="LOGSTASH"/>
+<!--        <appender-ref ref="LOGSTASH"/>-->
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="FILE"/>
     </root>

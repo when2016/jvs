@@ -155,11 +155,13 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 
+        <!-- wanghongen 20220114
         <dependency>
             <groupId>com.taobao.arthas</groupId>
             <artifactId>arthas-spring-boot-starter</artifactId>
             <version>${arthas.version}</version>
         </dependency>
+        -->
     </dependencies>
 
 
